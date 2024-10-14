@@ -4,6 +4,5 @@ namespace Application.Services;
 
 internal interface IUserService
 {
-    bool AddUser(UserDto user);
-    bool IsExisting(UserDto user);
+    bool AddUserToChat(UserDto user);
 }

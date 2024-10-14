@@ -1,5 +1,6 @@
 ﻿using Application.Abstractions;
 using Application.ApplicationModels;
+using Application.Domain;
 using MapsterMapper;
 
 namespace Application.Services;
@@ -17,8 +18,10 @@ internal class MessageService(
         return messageDtos;
     }
 
-    public bool Send(SendMessageCommand command)
+    public bool Send(MessageDto messageDto)
     {
-        throw new NotImplementedException();
+        var message = _mapper.Map<Message>(messageDto);
+
+        return _repository.AddMessage(message);
     }
 }

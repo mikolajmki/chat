@@ -1,0 +1,6 @@
+C:\Users\mikol\source\repos\chat\src\API\Presentation\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\mikol\source\repos\chat\src\API\Presentation\Presentation\obj\Debug\net8.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mikol\source\repos\chat\src\API\Presentation\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\mikol\source\repos\chat\src\API\Presentation\Presentation\obj\Debug\net8.0\Presentation.AssemblyInfo.cs
+C:\Users\mikol\source\repos\chat\src\API\Presentation\Presentation\obj\Debug\net8.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\mikol\source\repos\chat\src\API\Presentation\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

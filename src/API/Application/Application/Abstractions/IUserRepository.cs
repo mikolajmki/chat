@@ -5,6 +5,9 @@ namespace Application.Abstractions;
 public interface IUserRepository
 {
     bool AddUser(User user);
-    bool IsExisting(Guid userId);
+    bool IsExisting(string name);
+    User GetByName(string name);
+    bool Activate(string name);
+    bool IsActive(Guid userId);
     int GetCount();
 }

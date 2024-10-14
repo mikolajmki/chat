@@ -4,7 +4,6 @@ namespace Infrastructure.Data;
 
 internal class DataContext : IDataContext
 {
-    public IEnumerable<Message> Messages => [];
-
-    public IEnumerable<User> Users => [];
+    public IEnumerable<Message> Messages { get; set; } = [];
+    public IEnumerable<User> Users { get; set; } = [];
 }

@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\mikol\\source\\repos\\chat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\abstractions\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\abstractions\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\applicationmodels\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\applicationmodels\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\applicationmodels\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\applicationmodels\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\applicationmodels\\sendmessagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\applicationmodels\\sendmessagecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,20 +31,40 @@
       "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\api\\infrastructure\\infrastructure\\data\\idatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\infrastructure\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\api\\infrastructure\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\infrastructure\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\api\\infrastructure\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\applicationmodels\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\applicationmodels\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\abstractions\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\abstractions\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\application\\application\\applicationmodels\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\API\\Application\\Application\\Application.csproj|solutionrelative:src\\api\\application\\application\\applicationmodels\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\infrastructure\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\api\\infrastructure\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\infrastructure\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\api\\infrastructure\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\API\\Presentation\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\api\\presentation\\presentation\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,89 +126,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 88,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\API\\Application\\Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T18:51:42.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "MessageService.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\MessageService.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Services\\MessageService.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\MessageService.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\Services\\MessageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAiwBQAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T18:16:32.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\API\\Infrastructure\\Infrastructure\\Repositories\\UserRepository.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "src\\API\\Infrastructure\\Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAxAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T18:09:45.341Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Abstractions\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Abstractions\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Abstractions\\IUserRepository.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\Abstractions\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T18:02:36.226Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "IDataContext.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Data\\IDataContext.cs",
               "RelativeDocumentMoniker": "src\\API\\Infrastructure\\Infrastructure\\Data\\IDataContext.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Data\\IDataContext.cs",
               "RelativeToolTip": "src\\API\\Infrastructure\\Infrastructure\\Data\\IDataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:59:11.655Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "DataContext.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Data\\DataContext.cs",
               "RelativeDocumentMoniker": "src\\API\\Infrastructure\\Infrastructure\\Data\\DataContext.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Data\\DataContext.cs",
               "RelativeToolTip": "src\\API\\Infrastructure\\Infrastructure\\Data\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:58:32.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "IMessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Abstractions\\IMessageRepository.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Abstractions\\IMessageRepository.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Abstractions\\IMessageRepository.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\Abstractions\\IMessageRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:57:09.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "MessageRepository.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Repositories\\MessageRepository.cs",
               "RelativeDocumentMoniker": "src\\API\\Infrastructure\\Infrastructure\\Repositories\\MessageRepository.cs",
@@ -221,33 +238,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\ApplicationModels\\UserDto.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\ApplicationModels\\UserDto.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\ApplicationModels\\UserDto.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\ApplicationModels\\UserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:50:23.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Services\\IUserService.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\IUserService.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:49:58.426Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "MessageDto.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\ApplicationModels\\MessageDto.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\ApplicationModels\\MessageDto.cs",
@@ -260,20 +277,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Domain\\User.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Domain\\User.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Domain\\User.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\Domain\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:32:13.504Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 11,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Domain\\Message.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Domain\\Message.cs",
@@ -286,26 +303,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SendMessageCommand.cs",
-              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\ApplicationModels\\SendMessageCommand.cs",
-              "RelativeDocumentMoniker": "src\\API\\Application\\Application\\ApplicationModels\\SendMessageCommand.cs",
-              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\ApplicationModels\\SendMessageCommand.cs",
-              "RelativeToolTip": "src\\API\\Application\\Application\\ApplicationModels\\SendMessageCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:19:23.214Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\IMessageService.cs",
               "RelativeDocumentMoniker": "src\\API\\Application\\Application\\Services\\IMessageService.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Services\\IMessageService.cs",
               "RelativeToolTip": "src\\API\\Application\\Application\\Services\\IMessageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T17:17:41.339Z",
               "EditorCaption": ""
@@ -320,8 +324,7 @@
               "RelativeToolTip": "src\\API\\Presentation\\Presentation\\PresentationModels\\RequestSendMessage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:15:05.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:15:05.089Z"
             },
             {
               "$type": "Document",
@@ -333,38 +336,35 @@
               "RelativeToolTip": "src\\API\\Presentation\\Presentation\\Controllers\\ChatController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:08:50.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:08:50.126Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "WpfApp",
+              "Title": "WpfApp.csproj",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
               "RelativeDocumentMoniker": "src\\Client\\WpfApp\\WpfApp.csproj",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
               "RelativeToolTip": "src\\Client\\WpfApp\\WpfApp.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T17:07:08.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:07:08.292Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Presentation",
+              "Title": "Presentation.csproj",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation\\Presentation.csproj",
               "RelativeDocumentMoniker": "src\\API\\Presentation\\Presentation\\Presentation.csproj",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation\\Presentation.csproj",
               "RelativeToolTip": "src\\API\\Presentation\\Presentation\\Presentation.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T17:07:05.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:07:05.198Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
@@ -372,8 +372,7 @@
               "RelativeToolTip": "src\\API\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T17:06:19.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:06:19.136Z"
             },
             {
               "$type": "Document",
@@ -385,8 +384,7 @@
               "RelativeToolTip": "src\\API\\WebApi\\WebApi.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T17:05:01.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:05:01.871Z"
             },
             {
               "$type": "Document",
@@ -398,12 +396,7 @@
               "RelativeToolTip": "src\\API\\Application\\Application\\Application.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T17:01:41.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+              "WhenOpened": "2024-10-14T17:01:41.792Z"
             },
             {
               "$type": "Document",
@@ -415,8 +408,7 @@
               "RelativeToolTip": "src\\Client\\Core\\Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T17:03:04.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:03:04.995Z"
             },
             {
               "$type": "Document",
@@ -428,8 +420,7 @@
               "RelativeToolTip": "src\\Client\\Core\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:01:27.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:01:27.533Z"
             },
             {
               "$type": "Document",
@@ -440,8 +431,7 @@
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\MainWindow.xaml",
               "RelativeToolTip": "src\\Client\\WpfApp\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-14T17:01:02.395Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:01:02.395Z"
             },
             {
               "$type": "Document",
@@ -453,12 +443,11 @@
               "RelativeToolTip": "src\\Client\\WpfApp\\MainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T17:01:02.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T17:01:02.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "src\\API\\Infrastructure\\Infrastructure\\DependencyInjection.cs",
@@ -466,8 +455,7 @@
               "RelativeToolTip": "src\\API\\Infrastructure\\Infrastructure\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:58:39.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T16:58:39.936Z"
             },
             {
               "$type": "Document",
@@ -479,8 +467,7 @@
               "RelativeToolTip": "src\\API\\Presentation\\Presentation\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:57:31.239Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T16:57:31.239Z"
             },
             {
               "$type": "Document",
@@ -492,8 +479,7 @@
               "RelativeToolTip": "src\\API\\Application\\Application\\DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:57:01.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T16:57:01.184Z"
             },
             {
               "$type": "Document",
@@ -505,8 +491,7 @@
               "RelativeToolTip": "src\\API\\WebApi\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T16:54:17.642Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T16:54:17.642Z"
             }
           ]
         }
