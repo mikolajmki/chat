@@ -14,13 +14,26 @@ internal class UserService(
     {
         if (_userRepository.IsExisting(userDto.Name))
         {
-            _userRepository.Activate(userDto.Name);
+            var userId = _userRepository.GetIdByName(userDto.Name);
 
-            return true;
+            if (!_userRepository.IsActive(userId))
+            {
+                _userRepository.Activate(userDto.Name);
+                return true;
+            }
+
+            return false;
         }
 
         var user = _mapper.Map<User>(userDto);
 
-        return _userRepository.AddUser(user);
+        _userRepository.AddUser(user);
+
+        return true;
+    }
+
+    public Guid GetIdByUserName(string userName)
+    {
+        return _userRepository.GetIdByName(userName);
     }
 }

@@ -6,6 +6,7 @@ using MapsterMapper;
 namespace Application.Services;
 
 internal class MessageService(
+        IUserService _userService,
         IMessageRepository _repository,
         IMapper _mapper
     ) : IMessageService
@@ -18,10 +19,28 @@ internal class MessageService(
         return messageDtos;
     }
 
-    public bool Send(MessageDto messageDto)
+    public bool SendMessage(SendMessageCommand command)
     {
-        var message = _mapper.Map<Message>(messageDto);
+        var userDto = new UserDto
+        {
+            Name = command.UserName,
+        };
 
-        return _repository.AddMessage(message);
+        if (!_userService.AddUserToChat(userDto))
+        {
+            return false;
+        }
+
+        var userId = _userService.GetIdByUserName(userDto.Name);
+
+        var message = new Message
+        {
+            Content = command.MessageContent,
+            UserId = userId
+        };
+
+        _repository.AddMessage(message);
+
+        return true;
     }
 }

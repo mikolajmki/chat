@@ -4,6 +4,6 @@ namespace Application.Services;
 
 public interface IMessageService
 {
-    bool Send(MessageDto messageDto);
+    bool SendMessage(SendMessageCommand command);
     IEnumerable<MessageDto> GetMessages();
 }

@@ -11,7 +11,7 @@
         "projectName": "Application",
         "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",

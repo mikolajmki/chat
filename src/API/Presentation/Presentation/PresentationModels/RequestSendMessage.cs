@@ -1,7 +1,7 @@
 ﻿namespace Presentation.Models;
 
-sealed record class RequestSendMessage
+public sealed record RequestSendMessage
 {
-    public string UserId { get; init; } = string.Empty;
-    public string Message { get; init; } = string.Empty;
+    public string UserName { get; set; }
+    public string MessageContent { get; init; } = string.Empty;
 }

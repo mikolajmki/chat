@@ -1,4 +1,6 @@
-﻿using Application.Services;
+﻿using Application.ApplicationModels;
+using Application.Services;
+using MapsterMapper;
 using Microsoft.AspNetCore.Mvc;
 using Presentation.Models;
 
@@ -7,12 +9,28 @@ namespace Presentation.Controllers;
 [Controller]
 [Route("api/[controller]")]
 public class ChatController(
-        IMessageService _messageService
+        IMessageService _messageService,
+        IMapper _mapper
     ) : ControllerBase
 {
-    public async Task<IActionResult> SendMessage(RequestSendMessage request)
+    [HttpPost]
+    public IActionResult SendMessage(RequestSendMessage request)
     {
-        request
+        var command = _mapper.Map<SendMessageCommand>(request);
+
+        if (_messageService.SendMessage(command))
+        {
+            return Ok();
+        }
+
+        return BadRequest();
+    }
+
+    [HttpGet]
+    public IActionResult GetMessages()
+    {
+        _messageService.GetMessages();
+
         return Ok();
     }
 }

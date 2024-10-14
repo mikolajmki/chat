@@ -8,7 +8,7 @@ internal class UserRepository(
         DataContext _context
     ) : IUserRepository
 {
-    public bool Activate(string name)
+    public void Activate(string name)
     {
         var user = _context.Users.Single(x => x.Name == name);
 
@@ -19,32 +19,18 @@ internal class UserRepository(
             IsActive = true,
         };
 
-        var list = _context.Users.ToList();
-
-        list.Remove(user);
-        list.Add(newUser);
-
-        _context.Users = list;
-
-        var isActivated = _context.Users.Single(x => x.Name == name).IsActive;
-        
-        return isActivated;
+        _context.Users.Remove(user);
+        _context.Users.Add(newUser);
     }
 
-    public bool AddUser(User user)
+    public void AddUser(User user)
     {
-        var count = _context.Users.Count();
-
-        _ = _context.Users.Append(user);
-
-        var newCount = _context.Users.Count();
-
-        return newCount > count;
+        _context.Users.Add(user);
     }
 
-    public User GetByName(string name)
+    public Guid GetIdByName(string name)
     {
-        return _context.Users.Single(x => x.Name == name);
+        return _context.Users.Single(x => x.Name == name).Id;
     }
 
     public int GetCount()

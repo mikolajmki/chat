@@ -5,18 +5,12 @@ using Infrastructure.Data;
 namespace Infrastructure.Repositories;
 
 internal class MessageRepository(
-        IDataContext _context
+        DataContext _context
     ) : IMessageRepository
 {
-    public bool AddMessage(Message message)
+    public void AddMessage(Message message)
     {
-        var count = _context.Messages.Count();
-
-        _ = _context.Messages.Append(message);
-
-        var newCount = _context.Messages.Count();
-
-        return newCount > count;
+        _context.Messages.Add(message);
     }
 
     public IEnumerable<Message> GetMessages()

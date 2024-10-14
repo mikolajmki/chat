@@ -4,6 +4,6 @@ namespace Application.Abstractions;
 
 public interface IMessageRepository
 {
-    bool AddMessage(Message message);
+    void AddMessage(Message message);
     IEnumerable<Message> GetMessages();
 }
