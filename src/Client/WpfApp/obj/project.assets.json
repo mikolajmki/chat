@@ -36,7 +36,7 @@
       "projectName": "WpfApp",
       "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
       "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\obj\\",
+      "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",

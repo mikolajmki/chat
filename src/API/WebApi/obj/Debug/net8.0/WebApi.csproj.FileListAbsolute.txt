@@ -15,6 +15,7 @@ C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Newtonsoft.Json
 C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Application.dll
 C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Infrastructure.dll
 C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\Presentation.dll
@@ -43,4 +44,3 @@ C:\Users\mikol\source\repos\chat\src\API\WebApi\obj\Debug\net8.0\refint\WebApi.d
 C:\Users\mikol\source\repos\chat\src\API\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\mikol\source\repos\chat\src\API\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\mikol\source\repos\chat\src\API\WebApi\obj\Debug\net8.0\ref\WebApi.dll
-C:\Users\mikol\source\repos\chat\src\API\WebApi\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
