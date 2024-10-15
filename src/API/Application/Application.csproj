@@ -12,7 +12,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<InternalsVisibleTo Include="UnitTests"/>
+		<InternalsVisibleTo Include="Tests\UnitTests"/>
 	</ItemGroup>
 
 </Project>

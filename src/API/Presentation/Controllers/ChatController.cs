@@ -46,6 +46,21 @@ public class ChatController(
         return response;
     }
 
+    [HttpGet(Route.GetLatestMessage)]
+    public ResponseGetLatestMessage GetLatestMessage()
+    {
+        var messageDto = _messageService.GetLatestMessage();
+
+        var message = _mapper.Map<MessageApiModel>(messageDto);
+
+        var response = new ResponseGetLatestMessage
+        {
+            LatestMessage = message
+        };
+
+        return response;
+    }
+
     [HttpPost(Route.Join)]
     public IActionResult Join([FromBody] RequestConnectUser request)
     {
@@ -78,6 +93,7 @@ internal class Route
 {
     public const string SendMessage = "SendMessage";
     public const string GetMessages = "GetMessages";
+    public const string GetLatestMessage = "GetLatesMessage";
     public const string GetActiveStats = "GetActiveStats";
     public const string Join = "Join";
 }

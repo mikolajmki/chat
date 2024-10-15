@@ -10,6 +10,14 @@ internal class MessageService(
         IMapper _mapper
     ) : IMessageService
 {
+    public MessageDto GetLatestMessage()
+    {
+        var message = _messageRepository.GetLatestMessage();
+        var messageDto = _mapper.Map<MessageDto>(message);
+
+        return messageDto;
+    }
+
     public IEnumerable<MessageDto> GetMessages()
     {
         var messages = _messageRepository.GetMessages();

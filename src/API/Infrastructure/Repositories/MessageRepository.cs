@@ -17,6 +17,13 @@ internal class MessageRepository(
         _context.Messages.Add(message);
     }
 
+    public Message GetLatestMessage()
+    {
+        var message = _context.Messages.MaxBy(x => x.CreatedAt);
+
+        return message;
+    }
+
     public IEnumerable<Message> GetMessages()
     {
         var messages = _context.Messages;
