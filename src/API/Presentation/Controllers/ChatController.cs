@@ -26,7 +26,7 @@ public class ChatController(
 
         _messageService.SendMessage(message);
 
-        _chatHubContext.Clients.All.SendAsync("NewMessageNotification");
+        _chatHubContext.Clients.All.SendAsync(SignalRMethod.NewMessageNotification);
 
         return Ok();
     }

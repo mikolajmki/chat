@@ -11,7 +11,7 @@ public class ChatHub(
         IMapper _mapper
     ) : Hub
 {
-    public bool Connect(RequestConnectUser request)
+    public Task Connect(RequestConnectUser request)
     {
         var connectionId = Context.ConnectionId;
 
@@ -21,12 +21,22 @@ public class ChatHub(
 
         var isAdded = _userService.AddUserToChat(user);
 
-        return isAdded;
+        Clients.Client(user.ConnectionId).SendAsync(SignalRMethod.IsSuccesfullyConnected, isAdded);
+
+        return Task.CompletedTask;
+    }
+    public Task Disconnect()
+    {
+        var connectionId = Context.ConnectionId;
+
+        _userService.DeactivateUserByConnectionId(connectionId);
+
+        return Task.CompletedTask;
     }
 
     public override Task OnConnectedAsync()
     {
-        Clients.All.SendAsync("UserJoinedNotification");
+        Clients.All.SendAsync(SignalRMethod.UserJoinedNotification);
 
         return base.OnConnectedAsync();
     }
@@ -39,4 +49,11 @@ public class ChatHub(
 
         return base.OnDisconnectedAsync(exception);
     }
+}
+
+public static class SignalRMethod
+{
+    public const string UserJoinedNotification = "UserJoinedNotification";
+    public const string NewMessageNotification = "NewMessageNotification";
+    public const string IsSuccesfullyConnected = "IsSuccesfullyConnected";
 }

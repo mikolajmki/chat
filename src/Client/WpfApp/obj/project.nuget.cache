@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kAYOQMZsdkeWKhjfOoW453Gm0MU5hiG/223GGmjQiKPj16g9N9HF8/23gwsRIVvX7w3fi/CbFii/zrWaXwIUIg==",
+  "dgSpecHash": "XPlv+9joLMlIf4ftWuGYSehh/pw7BLPTdaIkY14l8inQRQL26RD2GxL5AxOgf90twiaKxJ4Qdz6AwAk/8ajvJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.3\\microsoft.aspnet.signalr.client.2.4.3.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -63,8 +63,21 @@ public class ChatHubTests
         var result = _chatHub.Connect(request);
 
         // Assert
-        Assert.True(result);
+        Assert.Equal(result, Task.CompletedTask);
         _userServiceMock.Verify(service => service.AddUserToChat(userDto), Times.Once);
+    }
+
+    [Fact]
+    public void Disconnect_CallsDeactivateUserByConnectionId()
+    {
+        // Arrange
+        var connectionId = _chatHub.Context.ConnectionId;
+
+        // Act
+        _chatHub.Disconnect();
+
+        // Assert
+        _userServiceMock.Verify(service => service.DeactivateUserByConnectionId(connectionId), Times.Once);
     }
 
     [Fact]

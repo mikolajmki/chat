@@ -7,8 +7,15 @@ public abstract class ViewModelBase : INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler PropertyChanged;
 
-    public void OnPropertyChanged([CallerMemberName] string propertyName = null)
+    protected bool SetProperty<T>(ref T field, T newValue, [CallerMemberName] string propertyName = null)
     {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        if (!Equals(field, newValue))
+        {
+            field = newValue;
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            return true;
+        }
+
+        return false;
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp.Views" 
         xmlns:viewmodels="clr-namespace:WpfApp.ViewModels" 
-        d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
+        d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         mc:Ignorable="d"
         Title="FormWindow" Height="400" Width="700">
 
@@ -14,9 +14,16 @@
         <TextBox HorizontalAlignment="Left" Name="tbEmail"  Text="{Binding MessageContentValue}" Margin="20,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" Height="50"/>
 
         <TextBlock TextWrapping="Wrap" Margin="500,20,160,344"><Run Language="pl-pl" Text="Name"/></TextBlock>
-        
+
         <Button Content="Button" Command="{Binding SendMessageCommand}" HorizontalAlignment="Right" Margin="0,314,220,0" Width="120" VerticalAlignment="Top" Height="50"/>
-        <Button Content="Button" Command="{Binding JoinChatCommand}" HorizontalAlignment="Right" Margin="0,59,120,0" Width="80" VerticalAlignment="Top" Height="20"/>
-        <Button Content="Button" Command="{Binding LeaveChatCommand}" HorizontalAlignment="Right" Margin="0,59,35,0" Width="80" VerticalAlignment="Top" Height="20"/>
+        <Button Content="Join" Command="{Binding JoinChatCommand}" HorizontalAlignment="Right" Margin="0,59,120,0" Width="80" VerticalAlignment="Top" Height="20"/>
+        <Button Content="Leave" Command="{Binding LeaveChatCommand}" HorizontalAlignment="Right" Margin="0,59,35,0" Width="80" VerticalAlignment="Top" Height="20"/>
+        <ListBox x:Name="lbMessages" BorderThickness="0" ItemsSource="{Binding Messages}" Margin="20,30,220,90">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock TextWrapping="Wrap" ><Run Language="pl-pl" Text="Name"/></TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
     </Grid>
 </Window>

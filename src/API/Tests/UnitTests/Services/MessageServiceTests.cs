@@ -67,7 +67,7 @@ public class MessageServiceTests
 
         // Assert
         Assert.Equal(expectedMessageDto, result);
-        _messageRepositoryMock.Verify(repo => repo.GetMessages(), Times.Once);
+        _messageRepositoryMock.Verify(repo => repo.GetLatestMessage(), Times.Once);
     }
 
     [Fact]
