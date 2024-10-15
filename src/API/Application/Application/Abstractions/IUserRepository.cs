@@ -6,8 +6,8 @@ public interface IUserRepository
 {
     void AddUser(User user);
     bool IsExisting(string name);
-    Guid GetIdByName(string name);
-    void Activate(string name);
+    Guid GetUserIdByName(string name);
+    void Activate(Guid userId);
     bool IsActive(Guid userId);
-    int GetCount();
+    void DeactivateByConnectionId(string connectionId);
 }

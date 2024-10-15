@@ -8,34 +8,16 @@ internal class UserRepository(
         DataContext _context
     ) : IUserRepository
 {
-    public void Activate(string name)
+    public void Activate(Guid userId)
     {
-        var user = _context.Users.Single(x => x.Name == name);
+        var user = _context.Users.Single(x => x.Id == userId);
 
-        var newUser = new User
-        {
-            Id = user.Id,
-            Name = user.Name,
-            IsActive = true,
-        };
-
-        _context.Users.Remove(user);
-        _context.Users.Add(newUser);
+        ToggleActive(user, true);
     }
 
     public void AddUser(User user)
     {
         _context.Users.Add(user);
-    }
-
-    public Guid GetIdByName(string name)
-    {
-        return _context.Users.Single(x => x.Name == name).Id;
-    }
-
-    public int GetCount()
-    {
-        return _context.Users.Distinct().Count();
     }
 
     public bool IsActive(Guid userId)
@@ -50,5 +32,30 @@ internal class UserRepository(
         var user = _context.Users.SingleOrDefault(x => x.Name == name);
 
         return user != null;
+    }
+
+    public Guid GetUserIdByName(string name)
+    {
+        return _context.Users.Single(x => x.Name == name).Id;
+    }
+
+    public void DeactivateByConnectionId(string connectionId)
+    {
+        var user = _context.Users.Single(x => x.ConnectionId == connectionId);
+
+        ToggleActive(user, false);
+    }
+
+    private void ToggleActive(User user, bool isActive)
+    {
+        var newUser = new User
+        {
+            Id = user.Id,
+            Name = user.Name,
+            IsActive = isActive,
+        };
+
+        _context.Users.Remove(user);
+        _context.Users.Add(newUser);
     }
 }

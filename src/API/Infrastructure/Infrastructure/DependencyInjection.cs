@@ -1,4 +1,5 @@
 ﻿using Application.Abstractions;
+using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,6 +11,8 @@ public static class DependencyInjection
     {
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<IMessageRepository, MessageRepository>();
+
+        services.AddSingleton<DataContext>();
 
         return services;
     }

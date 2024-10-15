@@ -2,35 +2,65 @@
 using Application.Services;
 using MapsterMapper;
 using Microsoft.AspNetCore.Mvc;
-using Presentation.Models;
+using Microsoft.AspNetCore.SignalR;
+using Presentation.Hubs;
+using Presentation.PresentationModels;
 
 namespace Presentation.Controllers;
 
-[Controller]
 [Route("api/[controller]")]
+[ApiController]
 public class ChatController(
         IMessageService _messageService,
+        IUserService _userService,
+        IHubContext<ChatHub> _chatHubContext,
         IMapper _mapper
     ) : ControllerBase
 {
-    [HttpPost]
-    public IActionResult SendMessage(RequestSendMessage request)
+    [HttpPost(Route.SendMessage)]
+    public IActionResult SendMessage([FromBody] RequestSendMessage request)
     {
-        var command = _mapper.Map<SendMessageCommand>(request);
+        var message = _mapper.Map<MessageDto>(request.Message);
 
-        if (_messageService.SendMessage(command))
+        _messageService.SendMessage(message);
+
+        _chatHubContext.Clients.All.SendAsync("NewMessageNotification");
+
+        return Ok();
+    }
+
+    [HttpGet(Route.GetMessages)]
+    public ResponseGetMessages GetMessages()
+    {
+        var messageDtos = _messageService.GetMessages();
+
+        var messages = _mapper.Map<IEnumerable<MessageApiModel>>(messageDtos);
+
+        var response = new ResponseGetMessages
+        {
+            Messages = messages
+        };
+
+        return response;
+    }
+
+    [HttpPost(Route.Join)]
+    public IActionResult Join([FromBody] RequestConnectUser request)
+    {
+        var user = _mapper.Map<UserDto>(request.User);
+
+        if (_userService.AddUserToChat(user))
         {
             return Ok();
         }
 
         return BadRequest();
     }
+}
 
-    [HttpGet]
-    public IActionResult GetMessages()
-    {
-        _messageService.GetMessages();
-
-        return Ok();
-    }
+internal class Route
+{
+    public const string SendMessage = "SendMessage";
+    public const string GetMessages = "GetMessages";
+    public const string Join = "Join";
 }

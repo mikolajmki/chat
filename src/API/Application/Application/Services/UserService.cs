@@ -14,15 +14,16 @@ internal class UserService(
     {
         if (_userRepository.IsExisting(userDto.Name))
         {
-            var userId = _userRepository.GetIdByName(userDto.Name);
+            var userId = _userRepository.GetUserIdByName(userDto.Name);
 
-            if (!_userRepository.IsActive(userId))
+            if (_userRepository.IsActive(userId))
             {
-                _userRepository.Activate(userDto.Name);
-                return true;
+                return false;
             }
 
-            return false;
+            _userRepository.Activate(userId);
+
+            return true;
         }
 
         var user = _mapper.Map<User>(userDto);
@@ -32,8 +33,8 @@ internal class UserService(
         return true;
     }
 
-    public Guid GetIdByUserName(string userName)
+    public void DeactivateUserByConnectionId(string id) 
     {
-        return _userRepository.GetIdByName(userName);
+        _userRepository.DeactivateByConnectionId(id);
     }
 }

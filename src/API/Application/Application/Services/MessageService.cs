@@ -6,41 +6,23 @@ using MapsterMapper;
 namespace Application.Services;
 
 internal class MessageService(
-        IUserService _userService,
-        IMessageRepository _repository,
+        IMessageRepository _messageRepository,
         IMapper _mapper
     ) : IMessageService
 {
     public IEnumerable<MessageDto> GetMessages()
     {
-        var messages = _repository.GetMessages();
+        var messages = _messageRepository.GetMessages();
+
         var messageDtos = _mapper.Map<IEnumerable<MessageDto>>(messages);
 
         return messageDtos;
     }
 
-    public bool SendMessage(SendMessageCommand command)
+    public void SendMessage(MessageDto messageDto)
     {
-        var userDto = new UserDto
-        {
-            Name = command.UserName,
-        };
+        var message = _mapper.Map<Message>(messageDto);
 
-        if (!_userService.AddUserToChat(userDto))
-        {
-            return false;
-        }
-
-        var userId = _userService.GetIdByUserName(userDto.Name);
-
-        var message = new Message
-        {
-            Content = command.MessageContent,
-            UserId = userId
-        };
-
-        _repository.AddMessage(message);
-
-        return true;
+        _messageRepository.AddMessage(message);
     }
 }

@@ -2,6 +2,6 @@
 
 public sealed record MessageDto
 {
-    public string UserId { get; init; } = string.Empty;
+    public UserDto User { get; init; } = new ();
     public string Content { get; init; } = string.Empty;
 }

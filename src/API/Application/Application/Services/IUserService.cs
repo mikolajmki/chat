@@ -2,9 +2,8 @@
 
 namespace Application.Services;
 
-internal interface IUserService
+public interface IUserService
 {
     bool AddUserToChat(UserDto user);
-
-    Guid GetIdByUserName(string userName);
+    void DeactivateUserByConnectionId(string id);
 }
