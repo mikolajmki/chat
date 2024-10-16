@@ -93,7 +93,7 @@ internal class Route
 {
     public const string SendMessage = "SendMessage";
     public const string GetMessages = "GetMessages";
-    public const string GetLatestMessage = "GetLatesMessage";
+    public const string GetLatestMessage = "GetLatestMessage";
     public const string GetActiveStats = "GetActiveStats";
     public const string Join = "Join";
 }

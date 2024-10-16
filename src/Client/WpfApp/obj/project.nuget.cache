@@ -1,11 +1,44 @@
 {
   "version": 2,
-  "dgSpecHash": "XPlv+9joLMlIf4ftWuGYSehh/pw7BLPTdaIkY14l8inQRQL26RD2GxL5AxOgf90twiaKxJ4Qdz6AwAk/8ajvJw==",
+  "dgSpecHash": "7DpaLxpI5mrQIYJ7tvLgYwc8xG5GbiGiaQspyafEquFMDbvQiWzgOtfvDtng1eC6/Ieo0+V74ru7uJaBuTixDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.3\\microsoft.aspnet.signalr.client.2.4.3.nupkg.sha512",
-    "C:\\Users\\mikol\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.0.0\\microsoft.aspnetcore.connections.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.0.0\\microsoft.aspnetcore.http.connections.client.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.http.connections.common\\3.0.0\\microsoft.aspnetcore.http.connections.common.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.signalr.client\\3.0.0\\microsoft.aspnetcore.signalr.client.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.signalr.client.core\\3.0.0\\microsoft.aspnetcore.signalr.client.core.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.signalr.common\\3.0.0\\microsoft.aspnetcore.signalr.common.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.signalr.protocols.json\\3.0.0\\microsoft.aspnetcore.signalr.protocols.json.3.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.diagnostics\\8.0.1\\microsoft.extensions.diagnostics.8.0.1.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.1\\microsoft.extensions.diagnostics.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.http\\8.0.1\\microsoft.extensions.http.8.0.1.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\mikol\\.nuget\\packages\\system.threading.channels\\4.6.0\\system.threading.channels.4.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "WpfApp depends on Microsoft.AspNetCore.SignalR.Client (>= 2.4.3) but Microsoft.AspNetCore.SignalR.Client 2.4.3 was not found. An approximate best match of Microsoft.AspNetCore.SignalR.Client 3.0.0 was resolved.",
+      "libraryId": "Microsoft.AspNetCore.SignalR.Client",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

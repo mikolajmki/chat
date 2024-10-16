@@ -48,7 +48,6 @@ public class ChatControllerTests : IClassFixture<ChatApplication>
     {
         // Act
         var response = await _client.GetAsync("api/chat/GetMessages");
-        var expected = 
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -57,6 +56,22 @@ public class ChatControllerTests : IClassFixture<ChatApplication>
 
         Assert.NotNull(result);
         Assert.IsType<ResponseGetMessages>(result);
+    }
+
+    [Fact]
+    public async Task GetLatestMessage_ReturnsMessage()
+    {
+        // Act
+        var response = await _client.GetAsync("api/chat/GetLatestMessage");
+        var expected =
+
+        // Assert
+        response.EnsureSuccessStatusCode();
+        var responseBody = await response.Content.ReadAsStringAsync();
+        var result = JsonConvert.DeserializeObject<ResponseGetLatestMessage>(responseBody);
+
+        Assert.NotNull(result);
+        Assert.IsType<ResponseGetLatestMessage>(result);
     }
 
     [Fact]

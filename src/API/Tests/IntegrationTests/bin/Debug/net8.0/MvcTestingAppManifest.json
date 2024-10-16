@@ -1,6 +1,0 @@
-{
-  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application",
-  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure",
-  "Presentation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation",
-  "WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi"
-}
