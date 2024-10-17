@@ -16,7 +16,7 @@ internal class StatsRepository(
         {
             client.BaseAddress = new Uri(_wpfConfiguration.ChatControllerAddress);
 
-            var response = await client.GetAsync(Route.GetMessages);
+            var response = await client.GetAsync(Route.GetStats);
 
             var responseBody = await response.Content.ReadAsStringAsync();
             var result = JsonConvert.DeserializeObject<GetStatsResponse>(responseBody);

@@ -7,30 +7,128 @@
         xmlns:viewmodels="clr-namespace:WpfApp.ViewModels" 
         d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="700">
+        Title="MainWindow" Height="600" Width="800">
 
-    <Grid>
-        <TextBox HorizontalAlignment="Left" Name="tbName" Text="{Binding NameValue}" IsEnabled="{Binding IsNameTbEnabled}" Margin="558,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="21"/>
-        <TextBox HorizontalAlignment="Left" Name="tbMessageContent" Text="{Binding MessageContentValue}" IsEnabled="{Binding IsMessageTbEnabled}" Margin="20,314,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" Height="50"/>
+    <Grid Height="600" Width="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
 
-        <TextBlock Text="Name" TextWrapping="Wrap" Margin="514,24,146,340"/>
+        <Grid Grid.Column="0" Margin="20,20,20,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="440"/>
+                <RowDefinition Height="90"/>
+            </Grid.RowDefinitions>
 
-        <Button Name="tbSendMessage" Content="Button" Command="{Binding SendMessageCommand}" HorizontalAlignment="Right" Margin="0,314,220,0" Width="120" VerticalAlignment="Top" Height="50"/>
-        <Button Name="tbJoinChat" Content="Join" Command="{Binding JoinChatCommand}" HorizontalAlignment="Right" Margin="0,73,107,0" Width="80" VerticalAlignment="Top" Height="20"/>
-        <Button Name="tbLeaveChat" Content="Leave" Command="{Binding LeaveChatCommand}" HorizontalAlignment="Right" Margin="0,73,22,0" Width="80" VerticalAlignment="Top" Height="20"/>
-        <ListBox x:Name="lbMessages" BorderThickness="1" ItemsSource="{Binding Messages}" Margin="20,24,220,90">
-            <ListBox.ItemTemplate>
-                <DataTemplate>
-                    <Grid>
-                        <Grid.RowDefinitions/>
-                        <TextBlock Grid.Row="0" Text="{Binding Path=User.Name}"/>
-                        <TextBlock Grid.Row="1" Text="{Binding Path=Content}"/>
-                        <TextBlock Grid.Row="2" Text="{Binding Path=CreatedAt}"/>
-                    </Grid>
-                </DataTemplate>
-            </ListBox.ItemTemplate>
-        </ListBox>
-        <TextBlock Text="Status" TextWrapping="Wrap" Margin="514,49,146,315"/>
-        <TextBlock Text="Connected" TextWrapping="Wrap" Margin="618,49,22,315" Foreground="#FF126F13"/>
+            <ListBox Grid.Row="0" x:Name="lbMessages" BorderThickness="1" ItemsSource="{Binding Messages}">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Name="MyDataGrid" >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                                <RowDefinition Height="1*" />
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" Name="tblUserName" Text="{Binding Path=User.Name}"/>
+                            <TextBlock Grid.Row="1" TextWrapping="Wrap" Name="tblContent" Text="{Binding Path=Content}"/>
+                            <TextBlock Grid.Row="2" Name="tblCreatedAt" Text="{Binding Path=CreatedAt}"/>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+
+            <Grid Margin="0,0,0,-15" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+
+                <TextBox HorizontalAlignment="Center" 
+                         Name="tbMessageContent" Text="{Binding MessageContentValue}" IsEnabled="{Binding IsMessageTbEnabled}"
+                         Width="350"
+                         Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55">
+                    <TextBox.InputBindings>
+                        <KeyBinding Key="Return" 
+                    Command="{Binding SendMessageCommand}"
+                    CommandParameter="{Binding ElementName=tbMessageContent, Path=Text}"/>
+                    </TextBox.InputBindings>
+                </TextBox>
+
+                <Button Grid.Column="1" HorizontalAlignment="Right" Name="tbSendMessage" Content="Button" Command="{Binding SendMessageCommand}"
+                        Margin="0,20,-10,0" 
+                        Width="100" VerticalAlignment="Top" 
+                        Height="55"/>
+            </Grid>
+        </Grid>
+
+        <Grid Grid.Column="1" Margin="0,20,15,35">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="415"/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0" Margin="0,0,20,20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <TextBlock Name="tblName" Text="Name" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,10"/>
+
+                    <TextBox Name="tbName" Text="{Binding NameValue}" 
+                             IsEnabled="{Binding IsNameTbEnabled}" TextWrapping="Wrap"
+                             HorizontalAlignment="Right" VerticalAlignment="Top" Height="20" Width="130">
+                        <TextBox.InputBindings>
+                            <KeyBinding Key="Return" Command="{Binding JoinChatCommand}"/>
+                        </TextBox.InputBindings>
+                    </TextBox>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <TextBlock Height="20" HorizontalAlignment="Left" Name="tblStatus" Text="Status" TextWrapping="Wrap"/>
+                    <TextBlock HorizontalAlignment="Right" Name="tblIsConnected" Text="{Binding IsConnectedIndicator.Text}" TextWrapping="Wrap" Foreground="{Binding IsConnectedIndicator.Color}" />
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Button Name="tbJoinChat" Content="Join" Command="{Binding JoinChatCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="20" Width="160"/>
+                    <Button Name="tbLeaveChat" Content="Leave" Command="{Binding LeaveChatCommand}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="20" Width="74"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1">
+
+                <TreeView Grid.Row="0" x:Name="tvStats" BorderThickness="1" ItemsSource="{Binding Stats}" Margin="0,0,20,0">
+                    <TreeViewItem IsExpanded="True" ItemsSource="{Binding Stats.ActiveUsers}">
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Connected" />
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Name="MyDataGrid" >
+                                    <TextBlock Text="{Binding Path=Name}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </TreeViewItem.ItemTemplate>
+                    </TreeViewItem>
+                    <TreeViewItem IsExpanded="True" ItemsSource="{Binding Stats.InActiveUsers}">
+                        <TreeViewItem.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Disconnected" />
+                            </StackPanel>
+                        </TreeViewItem.Header>
+                        <TreeViewItem.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Name="MyDataGrid" >
+                                    <TextBlock Text="{Binding Path=Name}"/>
+                                </Grid>
+                            </DataTemplate>
+                        </TreeViewItem.ItemTemplate>
+                    </TreeViewItem>
+                </TreeView>
+
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

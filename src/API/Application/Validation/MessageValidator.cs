@@ -7,6 +7,6 @@ public class MessageValidator : AbstractValidator<Message>
 {
     public MessageValidator()
     {
-        RuleFor(x => x.Content).NotEmpty().MaximumLength(100);
+        RuleFor(x => x.Content).NotEmpty().MaximumLength(200);
     }
 }
