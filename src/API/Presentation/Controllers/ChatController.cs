@@ -24,11 +24,13 @@ public class ChatController(
     {
         var message = _mapper.Map<MessageDto>(request.Message);
 
-        _messageService.SendMessage(message);
+        if(_messageService.SendMessage(message))
+        {
+            _chatHubContext.Clients.All.SendAsync(Notification.NewMessage);
+            return Ok();
+        }
 
-        _chatHubContext.Clients.All.SendAsync(SignalRMethod.NewMessageNotification);
-
-        return Ok();
+        return BadRequest();
     }
 
     [HttpGet(Route.GetMessages)]
@@ -47,34 +49,50 @@ public class ChatController(
     }
 
     [HttpGet(Route.GetLatestMessage)]
-    public ResponseGetLatestMessage GetLatestMessage()
+    public IActionResult GetLatestMessage()
     {
         var messageDto = _messageService.GetLatestMessage();
 
-        var message = _mapper.Map<MessageApiModel>(messageDto);
-
-        var response = new ResponseGetLatestMessage
+        if (messageDto != null)
         {
-            LatestMessage = message
-        };
+            var message = _mapper.Map<MessageApiModel>(messageDto);
 
-        return response;
+            var response = new ResponseGetLatestMessage
+            {
+                LatestMessage = message
+            };
+
+            return Ok(response);
+        }
+
+        return BadRequest();
     }
 
     [HttpPost(Route.Join)]
-    public IActionResult Join([FromBody] RequestConnectUser request)
+    public IActionResult Join([FromBody] RequestJoinChat request)
     {
         var user = _mapper.Map<UserDto>(request.User);
 
         if (_userService.AddUserToChat(user))
         {
+            _chatHubContext.Clients.All.SendAsync(Notification.GetStats);
+
             return Ok();
         }
 
         return BadRequest();
     }
 
-    [HttpGet(Route.GetActiveStats)]
+    [HttpPut(Route.Leave)]
+    public IActionResult Leave([FromBody] RequestLeaveChat request)
+    {
+        _userService.DeactivateByConnectionId(request.GetUserConnectionId());
+        _chatHubContext.Clients.All.SendAsync(Notification.GetStats);
+
+        return Ok();
+    }
+
+    [HttpGet(Route.GetStats)]
     public ResponseGetStats GetStats()
     {
         var statsDtos = _statsService.GetStats();
@@ -94,6 +112,7 @@ internal class Route
     public const string SendMessage = "SendMessage";
     public const string GetMessages = "GetMessages";
     public const string GetLatestMessage = "GetLatestMessage";
-    public const string GetActiveStats = "GetActiveStats";
+    public const string GetStats = "GetStats";
     public const string Join = "Join";
+    public const string Leave = "Leave";
 }

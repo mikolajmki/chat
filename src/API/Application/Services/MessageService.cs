@@ -1,6 +1,7 @@
 ﻿using Application.Abstractions;
 using Application.ApplicationModels;
 using Application.Domain;
+using Application.Validation;
 using MapsterMapper;
 
 namespace Application.Services;
@@ -27,10 +28,20 @@ internal class MessageService(
         return messageDtos;
     }
 
-    public void SendMessage(MessageDto messageDto)
+    public bool SendMessage(MessageDto messageDto)
     {
         var message = _mapper.Map<Message>(messageDto);
 
-        _messageRepository.AddMessage(message);
+        var messageValidator = new MessageValidator();
+        var validationResult = messageValidator.Validate(message);
+
+        if (validationResult.IsValid)
+        {
+            _messageRepository.AddMessage(message);
+
+            return true;
+        }
+
+        return false;
     }
 }

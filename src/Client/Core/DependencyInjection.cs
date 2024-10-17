@@ -11,6 +11,8 @@ public static class DependencyInjection
     {
         services.AddScoped<IMessageRepository, MessageRepository>();
         services.AddScoped<IStatsRepository, StatsRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IUserService, UserService>();
         services.AddScoped<IMessageService, MessageService>();
         services.AddScoped<IStatsService, StatsService>();
 

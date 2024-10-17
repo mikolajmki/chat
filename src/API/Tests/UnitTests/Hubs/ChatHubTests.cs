@@ -42,55 +42,6 @@ public class ChatHubTests
     }
 
     [Fact]
-    public void Connect_CallsAddUserToChat()
-    {
-        // Arrange
-        var request = new RequestConnectUser
-        {
-            User = new UserApiModel { Name = "Bob" }
-        };
-
-
-        var userDto = new UserDto { Name = "Bob" };
-
-        _mapperMock.Setup(x => x.Map<UserDto>(request.User)).Returns(userDto);
-
-        userDto.SetConnectionId("test-connection-id");
-
-        _userServiceMock.Setup(service => service.AddUserToChat(userDto)).Returns(true);
-
-        // Act
-        var result = _chatHub.Connect(request);
-
-        // Assert
-        Assert.Equal(result, Task.CompletedTask);
-        _userServiceMock.Verify(service => service.AddUserToChat(userDto), Times.Once);
-    }
-
-    [Fact]
-    public void Disconnect_CallsDeactivateUserByConnectionId()
-    {
-        // Arrange
-        var connectionId = _chatHub.Context.ConnectionId;
-
-        // Act
-        _chatHub.Disconnect();
-
-        // Assert
-        _userServiceMock.Verify(service => service.DeactivateUserByConnectionId(connectionId), Times.Once);
-    }
-
-    [Fact]
-    public async Task OnConnectedAsync_SendsUserJoinedNotification()
-    {
-        // Act
-        await _chatHub.OnConnectedAsync();
-
-        // Assert
-        _clientsMock.Verify(clients => clients.All, Times.Once);
-    }
-
-    [Fact]
     public async Task OnDisconnectedAsync_CallsDeactivateUserByConnectionId()
     {
         // Arrange
@@ -100,6 +51,6 @@ public class ChatHubTests
         await _chatHub.OnDisconnectedAsync(NullException.ForNonNullValue("Exception"));
 
         // Assert
-        _userServiceMock.Verify(service => service.DeactivateUserByConnectionId(connectionId), Times.Once);
+        _userServiceMock.Verify(service => service.DeactivateByConnectionId(connectionId), Times.Once);
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7DpaLxpI5mrQIYJ7tvLgYwc8xG5GbiGiaQspyafEquFMDbvQiWzgOtfvDtng1eC6/Ieo0+V74ru7uJaBuTixDw==",
+  "dgSpecHash": "ZGqmPjXfmsDCr2k01Z+1cz3U7wXrfwKjyaHB6Fcd+BiHvANxth1/lxOYb8ZU2I61C/EO62tUMBNv4hrn1q6RbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
+  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\WpfApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\3.0.0\\microsoft.aspnetcore.connections.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\mikol\\.nuget\\packages\\microsoft.aspnetcore.http.connections.client\\3.0.0\\microsoft.aspnetcore.http.connections.client.3.0.0.nupkg.sha512",

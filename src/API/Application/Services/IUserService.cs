@@ -5,5 +5,6 @@ namespace Application.Services;
 public interface IUserService
 {
     bool AddUserToChat(UserDto user);
-    void DeactivateUserByConnectionId(string id);
+    void DeactivateByConnectionId(string id);
+    void RemoveFromChatByConnectionId(string id);
 }

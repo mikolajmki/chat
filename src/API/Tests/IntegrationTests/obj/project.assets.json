@@ -24,6 +24,19 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "FluentValidation/11.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Mapster/7.4.0": {
         "type": "package",
         "dependencies": {
@@ -3048,8 +3061,10 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "FluentValidation": "11.10.0",
           "Mapster": "7.4.0",
-          "Mapster.DependencyInjection": "1.0.1"
+          "Mapster.DependencyInjection": "1.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
         },
         "compile": {
           "bin/placeholder/Application.dll": {}
@@ -3062,7 +3077,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Application": "1.0.0"
+          "Application": "1.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -3185,6 +3201,31 @@
         "coverlet-icon.png",
         "coverlet.collector.6.0.0.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "FluentValidation/11.10.0": {
+      "sha512": "qsJGSJDdZ8qiG+lVJ70PZfJHcEdq8UQZ/tZDXoj78/iHKG6lVKtMJsD11zyyv/IPc7rwqGqnFoFLTNzpo3IPYg==",
+      "type": "package",
+      "path": "fluentvalidation/11.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.10.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
       ]
     },
     "Mapster/7.4.0": {
@@ -8858,11 +8899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
       "projectName": "IntegrationTests",
-      "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\obj\\",
+      "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8879,17 +8920,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj"
+            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj"
             },
-            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj"
+            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj"
             },
-            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj"
+            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj"
             }
           }
         }

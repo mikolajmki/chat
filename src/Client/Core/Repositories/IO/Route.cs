@@ -7,4 +7,5 @@ internal class Route
     public const string GetLatestMessage = "GetLatestMessage";
     public const string GetActiveStats = "GetActiveStats";
     public const string Join = "Join";
+    public const string Leave = "Leave";
 }

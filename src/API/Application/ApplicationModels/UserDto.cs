@@ -2,10 +2,10 @@
 
 public sealed record UserDto
 {
-    public string Id { get; init; } = string.Empty;
+    public Guid Id { get; private set; }
     public string ConnectionId { get; private set; } = string.Empty;
     public string Name { get; init; } = string.Empty;
-    public bool IsActive { get; init; }
+    public bool IsActive { get; private set; }  
 
     public void SetConnectionId(string id)
     {

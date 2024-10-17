@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj": {}
+    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\WpfApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\WpfApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\WpfApp.csproj",
         "projectName": "WpfApp",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\WpfApp.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\WpfApp.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\WpfApp\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\WpfApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj"
+              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj"
               }
             }
           }

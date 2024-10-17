@@ -10,4 +10,5 @@ public interface IUserRepository
     void Activate(Guid userId);
     bool IsActive(Guid userId);
     void DeactivateByConnectionId(string connectionId);
+    void RemoveFromChatByConnectionId(string id);
 }

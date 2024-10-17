@@ -23,7 +23,6 @@ public class ChatControllerTests : IClassFixture<ChatApplication>
         // Arrange
         var user = new UserApiModel
         {
-            Id = DummyDataContext.TestUserGuid.ToString(),
             Name = "Bob",
         };
 
@@ -59,11 +58,16 @@ public class ChatControllerTests : IClassFixture<ChatApplication>
     }
 
     [Fact]
-    public async Task GetLatestMessage_ReturnsMessage()
+    public async Task GetLatestMessage_ReturnsOkAndMessage()
     {
         // Act
         var response = await _client.GetAsync("api/chat/GetLatestMessage");
-        var expected =
+
+        var expected = new MessageApiModel
+        {
+            Content = DummyDataContext.Message.Content,
+            User = new UserApiModel { Name = DummyDataContext.User.Name }
+        };
 
         // Assert
         response.EnsureSuccessStatusCode();
@@ -72,13 +76,14 @@ public class ChatControllerTests : IClassFixture<ChatApplication>
 
         Assert.NotNull(result);
         Assert.IsType<ResponseGetLatestMessage>(result);
+        Assert.Equal(result.LatestMessage, expected);
     }
 
     [Fact]
     public async Task Join_ReturnsOk_WhenUserIsAdded()
     {
         // Arrange
-        var request = new RequestConnectUser
+        var request = new RequestJoinChat
         {
             User = new UserApiModel { Name = "Alice" }
         };

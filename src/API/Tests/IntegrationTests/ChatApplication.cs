@@ -31,31 +31,30 @@ public class ChatApplication : WebApplicationFactory<Program>
 }
 public class DummyDataContext
 {
-    public static readonly Guid TestMessageGuid = Guid.NewGuid();
     public static readonly Guid TestUserGuid = Guid.NewGuid();
     public List<User> Users { get; set; } = [];
     public List<Message> Messages { get; set; } = [];
 
+    public static User User { get; } = new User
+    {
+        Name = "Bob",
+        ConnectionId = "connection-id",
+        IsActive = true,
+    };
+
+    public static Message Message { get; } = new Message
+    {
+        Content = "Content",
+    };
+
     public DummyDataContext()
     {
-        var user = new User
-        {
-            Name = "Bob",
-            ConnectionId = "connection-id",
-            IsActive = true,
-        };
-        user.SetId(TestUserGuid);
+        User.SetId(TestUserGuid);
 
-        Users = [user];
+        Users = [User];
 
-        var message = new Message
-        {
-            Id = TestMessageGuid,
-            Content = "Content",
-        };
+        Message.SetUser(User);
 
-        message.SetUser(user);
-
-        Messages = [message];
+        Messages = [Message];
     }
 }
