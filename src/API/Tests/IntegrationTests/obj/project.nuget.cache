@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dbFhgLfJal7U2kyRfNYinNfxDcj6hTeVLGinv50eFkeipoykddUgoIQd90KKaBiMoB7IIXWBofkAIZFEkMUceQ==",
+  "dgSpecHash": "UBUwi7go7U5R8fnVHKd8K++Yw9yK0Kom/DZ9bXWvbTs2NZZ+X/A4KBSYh5d+qxP5aW4bULiCcsMHgQ9ZrTx9Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikol\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\mikol\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

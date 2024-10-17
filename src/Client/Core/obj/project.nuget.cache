@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0dPaSQzizCBouhcFIM4Amcynpnvq7lQuZd3Y/VYPMucQPHZdH29DVNBuVzO70jrVmOv5pjzjfHNjXlxy+wCZBw==",
+  "dgSpecHash": "mrc6umnjtHeMHf6qk4tocrOp4R1BYoCYaCb6QJ+6i0MAqE9ylbQLik2J/X5ApIlj9r4nMAyFIuzNIRjJjizC/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\mikol\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

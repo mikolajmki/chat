@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FygSHBwl/PrU12CY2TMvGwSCIxm6qsyDlmG2acXHqu9niAB/3PzQt4s33jWzkYSb/hKYLQDNJT8jN9lGehvc+Q==",
+  "dgSpecHash": "M0uPFJ4wVhMz/zLJMOLhtOFMWtcqtfPugX89BC3z0bXczrS4PhTBCQfZP7fZXlHwq+h9p4Uonpm+xJvUM6YCTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikol\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\mikol\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",

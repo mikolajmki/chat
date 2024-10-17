@@ -31,16 +31,17 @@ public class ChatApplication : WebApplicationFactory<Program>
 }
 public class DummyDataContext
 {
-    public static readonly Guid TestUserGuid = Guid.NewGuid();
+    public static readonly Guid TestUserGuid = Guid.Parse("e5d906ce-51f2-44f8-a2c7-2be0f2781008");
+    public static readonly Guid TestMessageGuid = Guid.Parse("c0e2957c-d2bf-4b83-9944-6bfd4c539a9e");
     public List<User> Users { get; set; } = [];
     public List<Message> Messages { get; set; } = [];
 
     public static User User { get; } = new User
     {
         Name = "Bob",
-        ConnectionId = "connection-id",
         IsActive = true,
     };
+
 
     public static Message Message { get; } = new Message
     {
@@ -50,10 +51,12 @@ public class DummyDataContext
     public DummyDataContext()
     {
         User.SetId(TestUserGuid);
+        User.SetConnectionId("some-connection-id");
 
         Users = [User];
 
         Message.SetUser(User);
+        Message.SetId(TestMessageGuid);
 
         Messages = [Message];
     }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj": {}
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\Client\\Core\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Client\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",

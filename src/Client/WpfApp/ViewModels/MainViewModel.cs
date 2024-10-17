@@ -20,7 +20,7 @@ public class MainViewModel : ViewModelBase
     private string _messageContentValue = string.Empty;
     
     private bool _isNotJoined = true;
-    private bool _isMessageBoxEnabled = false;
+    private bool _isJoined = false;
 
     private ObservableCollection<Message> _messages;
     private Stats _stats;
@@ -31,8 +31,8 @@ public class MainViewModel : ViewModelBase
 
     private IsConnectedIndicator _isConnectedIndicator;
     public IsConnectedIndicator IsConnectedIndicator { get => _isConnectedIndicator; set => SetProperty(ref _isConnectedIndicator, value); }
-    public bool IsNameTbEnabled { get => _isNotJoined; set => SetProperty(ref _isNotJoined, value); }
-    public bool IsMessageTbEnabled { get => _isMessageBoxEnabled; set => SetProperty(ref _isMessageBoxEnabled, value); }
+    public bool IsNotJoined { get => _isNotJoined; set => SetProperty(ref _isNotJoined, value); }
+    public bool IsJoined { get => _isJoined; set => SetProperty(ref _isJoined, value); }
     public string NameValue { get => _nameValue; set => SetProperty(ref _nameValue, value); }
     public bool IsConnected { get => _isNotJoined; set => SetProperty(ref _isNotJoined, value); }
     public ObservableCollection<Message> Messages { get => _messages; set => SetProperty(ref _messages, value); }
@@ -95,8 +95,8 @@ public class MainViewModel : ViewModelBase
             new User { Name = _nameValue, ConnectionId = _chatHub.ConnectionId }
         ).ConfigureAwait(false);
 
-        IsNameTbEnabled = !joined;
-        IsMessageTbEnabled = joined;
+        IsNotJoined = !joined;
+        IsJoined = joined;
 
         if (joined) IsConnectedIndicator = IsConnectedIndicator.Connected();
     }
@@ -107,8 +107,8 @@ public class MainViewModel : ViewModelBase
             new User { ConnectionId = _chatHub.ConnectionId }
         ).ConfigureAwait(false);
 
-        IsNameTbEnabled = true;
-        IsMessageTbEnabled = false;
+        IsNotJoined = true;
+        IsJoined = false;
         IsConnectedIndicator = IsConnectedIndicator.Disconnected();
     }
     private async void GetMessages()

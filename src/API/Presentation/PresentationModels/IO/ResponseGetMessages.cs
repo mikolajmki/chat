@@ -2,5 +2,5 @@
 
 public sealed record ResponseGetMessages
 {
-    public IEnumerable<MessageApiModel> Messages { get; init; } = [];
+    public List<MessageApiModel> Messages { get; init; } = [];
 }

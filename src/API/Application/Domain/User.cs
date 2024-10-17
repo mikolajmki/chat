@@ -5,7 +5,7 @@ public sealed record User
 
     public Guid Id { get; private set; } = Guid.Empty;
     public string Name { get; init; } = string.Empty;
-    public string ConnectionId { get; set; } = string.Empty;
+    public string ConnectionId { get; private set; } = string.Empty;
     public bool IsActive { get; init; } = true;
 
     public void GenerateId()
@@ -16,5 +16,10 @@ public sealed record User
     public void SetId(Guid id)
     {
         Id = id;
+    }
+
+    public void SetConnectionId(string connectionId)
+    {
+        ConnectionId = connectionId;
     }
 }

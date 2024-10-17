@@ -7,7 +7,7 @@
         xmlns:viewmodels="clr-namespace:WpfApp.ViewModels" 
         d:DataContext="{d:DesignInstance Type=viewmodels:MainViewModel}"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="Chat" Height="600" Width="800" ResizeMode="NoResize">
 
     <Grid Height="600" Width="800">
         <Grid.ColumnDefinitions>
@@ -45,7 +45,7 @@
                 </Grid.ColumnDefinitions>
 
                 <TextBox HorizontalAlignment="Center" 
-                         Name="tbMessageContent" Text="{Binding MessageContentValue}" IsEnabled="{Binding IsMessageTbEnabled}"
+                         Name="tbMessageContent" Text="{Binding MessageContentValue}" IsEnabled="{Binding IsJoined}"
                          Width="350"
                          Margin="0,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55">
                     <TextBox.InputBindings>
@@ -79,7 +79,7 @@
                     <TextBlock Name="tblName" Text="Name" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="0,0,0,10"/>
 
                     <TextBox Name="tbName" Text="{Binding NameValue}" 
-                             IsEnabled="{Binding IsNameTbEnabled}" TextWrapping="Wrap"
+                             IsEnabled="{Binding IsNotJoined}" TextWrapping="Wrap"
                              HorizontalAlignment="Right" VerticalAlignment="Top" Height="20" Width="130">
                         <TextBox.InputBindings>
                             <KeyBinding Key="Return" Command="{Binding JoinChatCommand}"/>
@@ -91,8 +91,10 @@
                     <TextBlock HorizontalAlignment="Right" Name="tblIsConnected" Text="{Binding IsConnectedIndicator.Text}" TextWrapping="Wrap" Foreground="{Binding IsConnectedIndicator.Color}" />
                 </Grid>
                 <Grid Grid.Row="2">
-                    <Button Name="tbJoinChat" Content="Join" Command="{Binding JoinChatCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="20" Width="160"/>
-                    <Button Name="tbLeaveChat" Content="Leave" Command="{Binding LeaveChatCommand}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="20" Width="74"/>
+                    <Button Name="tbJoinChat" Content="Join" IsEnabled="{Binding IsNotJoined}" 
+                            Command="{Binding JoinChatCommand}" HorizontalAlignment="Left" VerticalAlignment="Top" Height="20" Width="185"/>
+                    <Button Name="tbLeaveChat" Content="Leave" IsEnabled="{Binding IsJoined}" 
+                            Command="{Binding LeaveChatCommand}" HorizontalAlignment="Right" VerticalAlignment="Top" Height="20" Width="75"/>
                 </Grid>
             </Grid>
             <Grid Grid.Row="1">

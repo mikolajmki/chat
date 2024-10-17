@@ -38,7 +38,7 @@ public class ChatController(
     {
         var messageDtos = _messageService.GetMessages();
 
-        var messages = _mapper.Map<IEnumerable<MessageApiModel>>(messageDtos);
+        var messages = _mapper.Map<List<MessageApiModel>>(messageDtos);
 
         var response = new ResponseGetMessages
         {

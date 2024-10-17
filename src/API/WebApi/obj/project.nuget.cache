@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZvdVP0NOgkIcdx68CGHkeBSzvLd177Php5t7NzGOs9Tk5na4Cwb4ClkW12wBIZFhTwb6ouARGq/PPpshdvPcw==",
+  "dgSpecHash": "4smLfDocEa/X8XcEeS3XhPAvewdEi8Atr0KKEMQ6q2eQPKihy/21HQifpwSrQ7m8T57GIbHq9vJVTgJqFZPPmg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mikol\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\mikol\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",

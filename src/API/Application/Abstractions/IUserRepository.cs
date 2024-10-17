@@ -6,9 +6,9 @@ public interface IUserRepository
 {
     void AddUser(User user);
     bool IsExisting(string name);
-    Guid GetUserIdByName(string name);
-    void Activate(Guid userId);
+    User GetUserByName(string name);
+    void Activate(User user);
     bool IsActive(Guid userId);
-    void DeactivateByConnectionId(string connectionId);
+    void DeactivateByConnectionId(string name);
     void RemoveFromChatByConnectionId(string id);
 }

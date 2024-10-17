@@ -8899,9 +8899,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+      "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
       "projectName": "IntegrationTests",
-      "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+      "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
       "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
@@ -8920,17 +8920,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj"
+            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj"
             },
-            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
             },
-            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj"
+            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj"
             },
-            "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj": {
-              "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj"
+            "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj": {
+              "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj"
             }
           }
         }

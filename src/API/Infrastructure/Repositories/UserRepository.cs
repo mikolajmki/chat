@@ -10,10 +10,8 @@ internal class UserRepository(
         ILogger<UserRepository> _logger
     ) : IUserRepository
 {
-    public void Activate(Guid userId)
+    public void Activate(User user)
     {
-        var user = _context.Users.Single(x => x.Id == userId);
-
         _logger.LogInformation(
             @"User with name {userName} of connectionId {connectionId} reconnected",
             user.Name,
@@ -53,9 +51,9 @@ internal class UserRepository(
         return user != null;
     }
 
-    public Guid GetUserIdByName(string name)
+    public User GetUserByName(string name)
     {
-        return _context.Users.Single(x => x.Name == name).Id;
+        return _context.Users.Single(x => x.Name == name);
     }
 
     public void DeactivateByConnectionId(string connectionId)
@@ -83,6 +81,7 @@ internal class UserRepository(
         };
 
         newUser.SetId(user.Id);
+        newUser.SetConnectionId(user.ConnectionId);
 
         _context.Users.Remove(user);
         _context.Users.Add(newUser);

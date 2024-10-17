@@ -28,15 +28,17 @@ internal class UserService(
 
         if (_userRepository.IsExisting(user.Name))
         {
-            var userId = _userRepository.GetUserIdByName(user.Name);
+            var existingUser = _userRepository.GetUserByName(user.Name);
 
-            if (_userRepository.IsActive(userId))
+            if (_userRepository.IsActive(existingUser.Id))
             {
                 _logger.LogError("User with name {userName} already active", user.Name);
                 return false;
             }
 
-            _userRepository.Activate(userId);
+            existingUser.SetConnectionId(user.ConnectionId);
+
+            _userRepository.Activate(existingUser);
 
             return true;
         }

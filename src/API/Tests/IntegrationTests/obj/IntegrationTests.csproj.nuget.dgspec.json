@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj": {}
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,14 +82,14 @@
         }
       }
     },
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -106,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -176,8 +176,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj"
               }
             }
           }
@@ -234,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
         "projectName": "IntegrationTests",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Tests\\IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Tests\\IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -258,17 +258,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj"
               },
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj"
               },
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj"
               }
             }
           }
@@ -337,14 +337,14 @@
         }
       }
     },
-    "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\mikol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mikol\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -361,14 +361,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Application\\Application.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Application\\Application.csproj"
               },
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj": {
-                "projectPath": "C:\\Users\\mikol\\source\\repos\\Chat\\src\\API\\Presentation\\Presentation.csproj"
+              "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj": {
+                "projectPath": "C:\\Users\\mikol\\source\\repos\\chat\\src\\API\\Presentation\\Presentation.csproj"
               }
             }
           }

@@ -17,6 +17,11 @@ public sealed record Message
         CreatedAt = DateTime.Now;
     }
 
+    public void SetId(Guid id)
+    {
+        Id = id;
+    }
+
     public void SetUser(User user)
     {
         User = user;
