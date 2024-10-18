@@ -5,25 +5,25 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D98E95F5-FA78-4CF9-AACB-D72E9EB44999}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{E415F7C3-92C6-444E-A35D-C9B75B3DEC53}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat.Server", "Chat.Server", "{E415F7C3-92C6-444E-A35D-C9B75B3DEC53}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\API\WebApi\WebApi.csproj", "{9A235732-490B-4A82-A984-611C2B0614EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\Chat.Server\WebApi\WebApi.csproj", "{9A235732-490B-4A82-A984-611C2B0614EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\API\Application\Application.csproj", "{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Chat.Server\Application\Application.csproj", "{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "src\API\Presentation\Presentation.csproj", "{755BD021-0BD5-47E5-9FDF-97F891BB16EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Presentation", "src\Chat.Server\Presentation\Presentation.csproj", "{755BD021-0BD5-47E5-9FDF-97F891BB16EE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\API\Infrastructure\Infrastructure.csproj", "{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Chat.Server\Infrastructure\Infrastructure.csproj", "{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C17772A7-7B59-4A2B-AC6E-9EF40EEF0B48}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chat.Client", "Chat.Client", "{C17772A7-7B59-4A2B-AC6E-9EF40EEF0B48}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp", "src\Client\WpfApp\WpfApp.csproj", "{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp", "src\Chat.Client\WpfApp\WpfApp.csproj", "{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\Client\Core\Core.csproj", "{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "src\Chat.Client\Core\Core.csproj", "{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "src\API\Tests\UnitTests\UnitTests.csproj", "{92A8EFD3-3D86-4B81-86AB-DB527088FF72}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "src\Chat.Server\Tests\UnitTests\UnitTests.csproj", "{92A8EFD3-3D86-4B81-86AB-DB527088FF72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "src\API\Tests\IntegrationTests\IntegrationTests.csproj", "{365D1792-E70D-4A71-86EE-27C81C0F0DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "src\Chat.Server\Tests\IntegrationTests\IntegrationTests.csproj", "{365D1792-E70D-4A71-86EE-27C81C0F0DC4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B4F0B5B-8925-4B86-9B5B-1FF15C8D2ED9}"
 EndProject
