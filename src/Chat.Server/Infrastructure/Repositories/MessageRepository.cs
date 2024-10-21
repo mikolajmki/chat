@@ -14,9 +14,7 @@ internal class MessageRepository(
     {
         var user = _context.Users.Single(x => x.Name == message.GetUserName());
 
-        message.GenerateId();
         message.SetUser(user);
-        message.SetCreatedAtNow();
 
         _context.Messages.Add(message);
 

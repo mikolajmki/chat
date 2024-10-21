@@ -37,6 +37,9 @@ internal class MessageService(
 
         if (validationResult.IsValid)
         {
+            message.GenerateId();
+            message.SetCreatedAtNow();
+
             _messageRepository.AddMessage(message);
 
             return true;

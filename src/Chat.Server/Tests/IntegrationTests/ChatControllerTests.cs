@@ -1,6 +1,5 @@
 namespace Tests.IntegrationTests;
 
-using Application.Domain;
 using FluentAssertions;
 using Newtonsoft.Json;
 using Presentation.PresentationModels;
@@ -10,20 +9,19 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using Xunit;
-using Xunit.Sdk;
 
-public class ChatControllerTests : IClassFixture<ChatApplication>, IAsyncLifetime
+public class ChatControllerTests : IAsyncLifetime
 {
-    private HttpClient _client;
-    private DummyDataContext _context;
+    private readonly ChatApplication _chatApplication = new ();
+    private readonly DummyDataContext _context = new ();
+
     private MessageApiModel _existingMessage;
     private UserApiModel _existingUser;
-
+    private HttpClient _client;
 
     public Task InitializeAsync()
     {
-        _client = new ChatApplication().CreateClient();
-        _context = new DummyDataContext();
+        _client = _chatApplication.CreateClient();
 
         var existing = _context.Messages.First();
 

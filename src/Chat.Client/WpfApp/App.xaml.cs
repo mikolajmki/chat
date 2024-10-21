@@ -26,7 +26,7 @@ namespace WpfApp
             services.AddScoped<MainViewModel>();
             services.AddScoped<MainWindow>();
 
-            services.AddCore();
+            services.AddCore(config);
 
             var provider = services.BuildServiceProvider();
 

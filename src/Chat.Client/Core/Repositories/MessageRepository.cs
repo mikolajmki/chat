@@ -7,68 +7,52 @@ using System.Text;
 namespace Core.Repositories;
 
 internal class MessageRepository(
-        IHttpClientFactory _httpClientFactory,
-        IWpfConfiguration _configuration
+        HttpClient _httpClient
     ) : IMessageRepository
 {
 
     public async Task<Message> GetLatestMessage()
     {
-        using (var client = _httpClientFactory.CreateClient())
-        {
-            client.BaseAddress = new Uri(_configuration.ChatControllerAddress);
+        var response = await _httpClient.GetAsync(Route.GetLatestMessage);
 
-            var response = await client.GetAsync(Route.GetLatestMessage);
+        var responseBody = await response.Content.ReadAsStringAsync();
 
-            var responseBody = await response.Content.ReadAsStringAsync();
+        var result = JsonConvert.DeserializeObject<GetLatestMessageResponse>(responseBody);
 
-            var result = JsonConvert.DeserializeObject<GetLatestMessageResponse>(responseBody);
+        var message = result.LatestMessage;
 
-            var message = result.LatestMessage;
-
-            return message;
-        }
+        return message;
     }
 
     public async Task<IEnumerable<Message>> GetMessages()
     {
-        using (var client = _httpClientFactory.CreateClient())
-        {
-            client.BaseAddress = new Uri(_configuration.ChatControllerAddress);
+        var response = await _httpClient.GetAsync(Route.GetMessages);
 
-            var response = await client.GetAsync(Route.GetMessages);
+        var responseBody = await response.Content.ReadAsStringAsync();
+        var result = JsonConvert.DeserializeObject<GetMessagesResponse>(responseBody);
 
-            var responseBody = await response.Content.ReadAsStringAsync();
-            var result = JsonConvert.DeserializeObject<GetMessagesResponse>(responseBody);
+        var messages = result.Messages;
 
-            var messages = result.Messages;
-
-            return messages;
-        }
+        return messages;
     }
 
     public async Task<bool> SendMessage(Message message)
     {
-        using (var client = _httpClientFactory.CreateClient())
+        var request = new SendMessageRequest
         {
-            client.BaseAddress = new Uri(_configuration.ChatControllerAddress);
+            Message = message
+        };
 
-            var request = new SendMessageRequest
-            {
-                Message = message
-            };
+        var jsonObject = JsonConvert.SerializeObject(request);
+        var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
 
-            var jsonObject = JsonConvert.SerializeObject(request);
-            var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
+        var result = await _httpClient.PostAsync(Route.SendMessage, content);
 
-            var result = await client.PostAsync(Route.SendMessage, content);
-
-            if (result.IsSuccessStatusCode)
-            {
-                return true;
-            }
-
-            return false;
+        if (result.IsSuccessStatusCode)
+        {
+            return true;
         }
+
+        return false;
     }
 }

@@ -3,32 +3,212 @@
   "WorkspaceRootPath": "C:\\Users\\mikol\\source\\repos\\chat\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\presentationmodels\\io\\responsegetstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\presentationmodels\\io\\responsegetstats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\presentationmodels\\io\\responsegetmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\presentationmodels\\io\\responsegetmessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\presentationmodels\\io\\responsegetlatestmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\presentationmodels\\io\\responsegetlatestmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\presentationmodels\\io\\requestsendmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\presentationmodels\\io\\requestsendmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\presentationmodels\\io\\requestleavechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\presentationmodels\\io\\requestleavechat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\presentationmodels\\io\\requestjoinchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\presentationmodels\\io\\requestjoinchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\presentation\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{755BD021-0BD5-47E5-9FDF-97F891BB16EE}|src\\Chat.Server\\Presentation\\Presentation.csproj|solutionrelative:src\\chat.server\\presentation\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\chat.server\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\infrastructure\\repositories\\statsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\chat.server\\infrastructure\\repositories\\statsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\chat.server\\infrastructure\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\chat.server\\infrastructure\\data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FDFC14-B94C-4F88-878D-F45AEB0BA1AD}|src\\Chat.Server\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\chat.server\\infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\validation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\validation\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\validation\\messagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\validation\\messagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\services\\istatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\services\\istatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\domain\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\domain\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\domain\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\applicationmodels\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\applicationmodels\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\applicationmodels\\statsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\applicationmodels\\statsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\application\\applicationmodels\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99ED6CFA-B028-4E0E-9665-4A7F0CE08D29}|src\\Chat.Server\\Application\\Application.csproj|solutionrelative:src\\chat.server\\application\\applicationmodels\\messagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\views\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\configuration\\wpfconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\configuration\\wpfconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{365D1792-E70D-4A71-86EE-27C81C0F0DC4}|src\\Chat.Server\\Tests\\IntegrationTests\\IntegrationTests.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.server\\tests\\integrationtests\\chatcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{365D1792-E70D-4A71-86EE-27C81C0F0DC4}|src\\Chat.Server\\Tests\\IntegrationTests\\IntegrationTests.csproj|solutionrelative:src\\chat.server\\tests\\integrationtests\\chatcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\common\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\common\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\services\\statsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\services\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\services\\istatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\services\\istatsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\services\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\abstractions\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\abstractions\\imessagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\abstractions\\istatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\abstractions\\istatsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\abstractions\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\abstractions\\iwpfconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\abstractions\\iwpfconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\models\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\models\\stats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\repositories\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\repositories\\statsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\repositories\\statsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\core\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0AA5CC38-A9B5-4F96-ACA6-229777688EA2}|src\\Chat.Client\\Core\\Core.csproj|solutionrelative:src\\chat.client\\core\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|c:\\users\\mikol\\source\\repos\\chat\\src\\chat.client\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14AA9B24-EF4A-45EC-BEB3-57DF12D3D4EB}|src\\Chat.Client\\WpfApp\\WpfApp.csproj|solutionrelative:src\\chat.client\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,40 +218,366 @@
       "DocumentGroups": [
         {
           "DockedWidth": 88,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ResponseGetStats.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetStats.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetStats.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetStats.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetStats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:31.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseGetMessages.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetMessages.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetMessages.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetMessages.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:31.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseGetLatestMessage.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetLatestMessage.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetLatestMessage.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetLatestMessage.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\ResponseGetLatestMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:30.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestSendMessage.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestSendMessage.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestSendMessage.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestSendMessage.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestSendMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:30.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestLeaveChat.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestLeaveChat.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestLeaveChat.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestLeaveChat.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestLeaveChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:29.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RequestJoinChat.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestJoinChat.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestJoinChat.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestJoinChat.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\PresentationModels\\IO\\RequestJoinChat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:28.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Presentation\\Controllers\\ChatController.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Presentation\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Presentation\\Controllers\\ChatController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAGkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:29:00.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:52.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Repositories\\StatsRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Infrastructure\\Repositories\\StatsRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Repositories\\StatsRepository.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Infrastructure\\Repositories\\StatsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:50.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Infrastructure\\Repositories\\MessageRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:47.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Infrastructure\\Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\Data\\DataContext.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Infrastructure\\Data\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:43.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:41.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:38.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Validation\\UserValidator.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Validation\\UserValidator.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Validation\\UserValidator.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Validation\\UserValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:35.506Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
-              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-18T16:39:08.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
-              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 14,
+              "Title": "MessageValidator.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Validation\\MessageValidator.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Validation\\MessageValidator.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Validation\\MessageValidator.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Validation\\MessageValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:39:07.831Z",
+              "WhenOpened": "2024-10-21T14:28:35.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Services\\UserService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwC8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:18.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StatsService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\StatsService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Services\\StatsService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\StatsService.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Services\\StatsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:17.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\MessageService.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Services\\MessageService.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:14.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\IUserService.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:13.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IStatsService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\IStatsService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Services\\IStatsService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\IStatsService.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Services\\IStatsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:11.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\IMessageService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Services\\IMessageService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Services\\IMessageService.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Services\\IMessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:10.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Domain\\User.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Domain\\User.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Domain\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:01.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Stats.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Domain\\Stats.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Domain\\Stats.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Domain\\Stats.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Domain\\Stats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:28:01.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Domain\\Message.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\Domain\\Message.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\Domain\\Message.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\Domain\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:27:59.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\ApplicationModels\\UserDto.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\ApplicationModels\\UserDto.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\ApplicationModels\\UserDto.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\ApplicationModels\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:27:53.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StatsDto.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\ApplicationModels\\StatsDto.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\ApplicationModels\\StatsDto.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\ApplicationModels\\StatsDto.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\ApplicationModels\\StatsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:27:52.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MessageDto.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\ApplicationModels\\MessageDto.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Server\\Application\\ApplicationModels\\MessageDto.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Application\\ApplicationModels\\MessageDto.cs",
+              "RelativeToolTip": "src\\Chat.Server\\Application\\ApplicationModels\\MessageDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:27:51.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\ViewModels\\ViewModelBase.cs",
@@ -79,59 +585,318 @@
               "RelativeToolTip": "src\\Chat.Client\\WpfApp\\ViewModels\\ViewModelBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:39:03.037Z",
+              "WhenOpened": "2024-10-21T14:26:33.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 31,
+              "Title": "WpfConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Configuration\\WpfConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Configuration\\WpfConfiguration.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Configuration\\WpfConfiguration.cs",
+              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Configuration\\WpfConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:26:20.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "Helpers.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Common\\Helpers.cs",
               "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Common\\Helpers.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Common\\Helpers.cs",
               "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Common\\Helpers.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAABAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:34:14.046Z",
+              "WhenOpened": "2024-10-21T14:26:09.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAAAawGgAAAAAAAAA",
+              "DocumentIndex": 33,
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Common\\Command.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Common\\Command.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Common\\Command.cs",
+              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Common\\Command.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:31:21.318Z",
+              "WhenOpened": "2024-10-21T14:26:06.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ChatControllerTests.cs",
-              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Tests\\IntegrationTests\\ChatControllerTests.cs",
-              "RelativeDocumentMoniker": "src\\Chat.Server\\Tests\\IntegrationTests\\ChatControllerTests.cs",
-              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Server\\Tests\\IntegrationTests\\ChatControllerTests.cs",
-              "RelativeToolTip": "src\\Chat.Server\\Tests\\IntegrationTests\\ChatControllerTests.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAUwHcAAABrAAAA",
+              "DocumentIndex": 38,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\IUserService.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Services\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T16:19:13.427Z",
+              "WhenOpened": "2024-10-21T14:25:55.056Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 39,
+              "Title": "IStatsService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\IStatsService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Services\\IStatsService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\IStatsService.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Services\\IStatsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:54.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\IMessageService.cs",
               "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Services\\IMessageService.cs",
               "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\IMessageService.cs",
               "RelativeToolTip": "src\\Chat.Client\\Core\\Services\\IMessageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T15:06:49.535Z",
+              "WhenOpened": "2024-10-21T14:25:53.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IMessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IMessageRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Abstractions\\IMessageRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IMessageRepository.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Abstractions\\IMessageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:46.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IStatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IStatsRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Abstractions\\IStatsRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IStatsRepository.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Abstractions\\IStatsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:46.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Abstractions\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IUserRepository.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Abstractions\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:45.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IWpfConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IWpfConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Abstractions\\IWpfConfiguration.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Abstractions\\IWpfConfiguration.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Abstractions\\IWpfConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:44.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Models\\User.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:39.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Stats.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Models\\Stats.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Models\\Stats.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Models\\Stats.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Models\\Stats.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:38.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Models\\Message.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Models\\Message.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Models\\Message.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:37.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\UserService.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:33.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StatsService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\StatsService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Services\\StatsService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\StatsService.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Services\\StatsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:25:31.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\MessageService.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Services\\MessageService.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Services\\MessageService.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Services\\MessageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:20:41.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwAkAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T14:18:19.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAmwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:45:49.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:45:28.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T13:45:12.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\App.xaml.cs",
+              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\App.xaml.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAjwCAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:43:21.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "StatsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Repositories\\StatsRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Repositories\\StatsRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Repositories\\StatsRepository.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Repositories\\StatsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:42:45.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "RelativeToolTip": "src\\Chat.Client\\WpfApp\\Views\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:42:37.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Repositories\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "src\\Chat.Client\\Core\\Repositories\\MessageRepository.cs",
+              "ToolTip": "C:\\Users\\mikol\\source\\repos\\chat\\src\\Chat.Client\\Core\\Repositories\\MessageRepository.cs",
+              "RelativeToolTip": "src\\Chat.Client\\Core\\Repositories\\MessageRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T13:42:36.235Z",
               "EditorCaption": ""
             }
           ]

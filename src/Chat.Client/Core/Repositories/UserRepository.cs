@@ -8,50 +8,39 @@ using System.Text;
 namespace Core.Repositories;
 
 internal class UserRepository(
-        IWpfConfiguration _configuration,
-        IHttpClientFactory _httpClientFactory
+        HttpClient _httpClient
     ) : IUserRepository
 {
     public async Task<bool> JoinChat(User user)
     {
-        using (var client = _httpClientFactory.CreateClient())
+        var request = new JoinChatRequest
         {
-            client.BaseAddress = new Uri(_configuration.ChatControllerAddress);
+            User = user,
+        };
 
-            var request = new JoinChatRequest
-            {
-                User = user,
-            };
+        var jsonObject = JsonConvert.SerializeObject(request);
+        var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
 
-            var jsonObject = JsonConvert.SerializeObject(request);
-            var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
+        var response = await _httpClient.PostAsync(Route.Join, content);
 
-            var response = await client.PostAsync(Route.Join, content);
-
-            if (response.StatusCode == HttpStatusCode.OK) 
-            {
-                return true;
-            }
-
-            return false;
+        if (response.StatusCode == HttpStatusCode.OK) 
+        {
+            return true;
         }
+
+        return false;
     }
 
     public async Task LeaveChat(User user)
     {
-        using (var client = _httpClientFactory.CreateClient())
+        var request = new LeaveChatRequest
         {
-            client.BaseAddress = new Uri(_configuration.ChatControllerAddress);
+            User = user
+        };
 
-            var request = new LeaveChatRequest
-            {
-                User = user
-            };
+        var jsonObject = JsonConvert.SerializeObject(request);
+        var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
 
-            var jsonObject = JsonConvert.SerializeObject(request);
-            var content = new StringContent(jsonObject.ToString(), Encoding.UTF8, "application/json");
-
-            var response = await client.PutAsync(Route.Leave, content);
-        }
+        var response = await _httpClient.PutAsync(Route.Leave, content);
     }
 }

@@ -4,10 +4,8 @@ using Core.Services;
 using Microsoft.AspNetCore.SignalR.Client;
 using System.Collections.ObjectModel;
 using System.Windows;
-using System.Windows.Controls;
 using System.Windows.Input;
 using WpfApp.Common;
-using WpfApp.Views;
 
 namespace WpfApp.ViewModels;
 

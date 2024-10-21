@@ -69,11 +69,12 @@ public class UserServiceTests
         var userDto = new UserDto { Name = "ExistingUser" };
 
         var existingUser = new User { Name = "ExistingUser" };
+        
+        existingUser.SetIsActive(false);
 
         _mapperMock.Setup(m => m.Map<User>(userDto)).Returns(existingUser);
         _userRepositoryMock.Setup(r => r.IsExisting(existingUser.Name)).Returns(true);
         _userRepositoryMock.Setup(r => r.GetUserByName(existingUser.Name)).Returns(existingUser);
-        _userRepositoryMock.Setup(r => r.IsActive(existingUser.Id)).Returns(true);
 
         // Act
         var result = _userService.AddUserToChat(userDto);
@@ -88,12 +89,13 @@ public class UserServiceTests
         // Arrange
         var userDto = new UserDto { Name = "InactiveUser", ConnectionId = "123", Id = Guid.Empty };
         var existingUser = new User { Name = "InactiveUser" };
+
         existingUser.SetConnectionId("123");
+        existingUser.SetIsActive(false);
 
         _mapperMock.Setup(m => m.Map<User>(userDto)).Returns(existingUser);
         _userRepositoryMock.Setup(r => r.IsExisting(existingUser.Name)).Returns(true);
         _userRepositoryMock.Setup(r => r.GetUserByName(existingUser.Name)).Returns(existingUser);
-        _userRepositoryMock.Setup(r => r.IsActive(existingUser.Id)).Returns(false);
 
         // Act
         var result = _userService.AddUserToChat(userDto);

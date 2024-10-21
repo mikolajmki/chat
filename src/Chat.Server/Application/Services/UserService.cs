@@ -30,7 +30,7 @@ internal class UserService(
         {
             var existingUser = _userRepository.GetUserByName(user.Name);
 
-            if (_userRepository.IsActive(existingUser.Id))
+            if (existingUser.IsActive)
             {
                 _logger.LogError("User with name {userName} already active", user.Name);
                 return false;

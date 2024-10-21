@@ -19,7 +19,6 @@ public sealed record IsConnectedIndicator
 
     public static IsConnectedIndicator Connected()
     {
-
         return new IsConnectedIndicator("Connected", "#FF126F13");
     }
     public static IsConnectedIndicator Disconnected()

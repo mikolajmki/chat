@@ -32,13 +32,6 @@ internal class UserRepository(
         );
     }
 
-    public bool IsActive(Guid userId)
-    {
-        var user = _context.Users.Single(x => x.Id == userId);
-
-        return user.IsActive;
-    }
-
     public bool IsExisting(string name)
     {
         var user = _context.Users.SingleOrDefault(x => x.Name == name);
